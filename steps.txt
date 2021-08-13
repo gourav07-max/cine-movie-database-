@@ -1,0 +1,48 @@
+STEP 1
+
+
+CINE DATABASE
+
+=>create database cine;
+=>use cine;
+
+=>create table movie(mov_id varchar(20) unique primary key,title varchar(20),release_date date,mov_time int);
+
+=> create table actor(mov_id varchar(20),act_id varchar(20) unique primary key,act_name varchar(20),foreign key(mov_id)references movie(mov_id));
+
+=> create table director(mov_id varchar(20),dir_id varchar(20) unique primary key,dir_name varchar(20),foreign key(mov_id)references movie(mov_id));
+
+=> create table genre(mov_id varchar(20),gen_id varchar(20) unique primary key,gen_name varchar(20),foreign key(mov_id)references movie(mov_id));
+
+=> create table producer(mov_id varchar(20),pro_id varchar(20) unique primary key,banner varchar(20),foreign key(mov_id)references movie(mov_id));
+
+=> create table revenue(mov_id varchar(20),rev_id varchar(20) unique primary key,collections varchar(20),verdict varchar(20),foreign key(mov_id)references movie(mov_id));
+
+=> create table rating(mov_id varchar(20),r_id varchar(20) unique primary key,rate int,foreign key(mov_id)references movie(mov_id));
+
+
+insert values in all the tables.
+
+
+STEP 2
+
+REGISTER DATABASE
+
+=>create database register;
+
+=>use register;
+
+=>create table reg(fname varchar(20),lname varchar(20),contact varchar(20),email varchar(20),security varchar(20),answer varchar(20),password varchar(20));
+
+
+STEP 3
+
+run the register.py file and enter the registration details.
+
+after that click on login button and enter the email & password,click on login button
+
+
+
+
+
+
