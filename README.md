@@ -1,4 +1,4 @@
-# cine-movie-database-
+# CINEPHILE-movie-database-
 
 It’s not always easy to pick the right movie to watch. Sometimes you want to see individuals begin 
 to look starry eyed or you need a motion picture to remind your connection with music or you need 
