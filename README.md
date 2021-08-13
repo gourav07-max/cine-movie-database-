@@ -7,6 +7,7 @@ to choose movies based on how you want the viewing experience with an unbiased r
 
 
 *ALL FILES (PYTHON FILES)
-1. login:LOGIN PAGE.
-2. register: REGISTRATION PAGE.
-3. student: MAIN PAGE.
+1. login.py:LOGIN PAGE.
+2. register.py: REGISTRATION PAGE.
+3. student.py: MAIN PAGE.
+4. steps: STEPS TO FOLLOW.
